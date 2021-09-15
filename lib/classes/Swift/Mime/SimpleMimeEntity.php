@@ -69,9 +69,9 @@ class Swift_Mime_SimpleMimeEntity implements Swift_Mime_CharsetObserver, Swift_M
 
     /** The order in which alternative mime types should appear */
     private $alternativePartOrder = [
-        'text/plain' => 1,
-        'text/x-amp-html' => 2,
-        'text/html' => 3,
+        'text/x-amp-html' => 1,
+        'text/plain' => 3,
+        'text/html' => 2,
         'multipart/related' => 4,
     ];
 
